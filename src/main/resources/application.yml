@@ -1,8 +1,8 @@
 spring:
   datasource:
     username: root
-    password: 123456
-    url: jdbc:mysql://192.168.3.45:3306/test?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true
+    password: 123456a
+    url: jdbc:mysql://192.168.50.103:3306/test?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 #   druid数据源其他配置

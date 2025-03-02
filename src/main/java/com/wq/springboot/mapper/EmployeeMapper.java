@@ -1,6 +1,7 @@
 package com.wq.springboot.mapper;
 
 import com.wq.springboot.bean.Employee;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @ClassName EmployeeMpper
@@ -11,5 +12,5 @@ import com.wq.springboot.bean.Employee;
  **/
 public interface EmployeeMapper {
 
-    public Employee getEmpById(Integer id);
+    public Employee getEmpById(@Param("id") Integer id);
 }
